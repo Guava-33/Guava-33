@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width==, initial-scale=1.0">
+    <title>Final project</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <style>
+        body {
+            background-repeat: repeat;
+            background-image: url(../0613/img/Background3.jpg);
+            background-attachment: fixed;
+            background-color: rgb(255, 255, 255);
+            background-size: 600px;
+        }
+
+        #container {
+            width: 980px;
+            height: 1300px;
+            margin: 0px auto;
+            background-color: rgba(197, 209, 244, 0.87);
+        }
+
+        h1 {
+            padding: 15px;
+            text-align: center;
+        }
+
+        h2 {
+            padding: 10px;
+            margin-bottom: 30px;
+            border: 3px double rgb(60, 70, 201);
+            border-left: 10px solid rgb(20, 94, 169);
+            color: rgb(38, 80, 125);
+        }
+
+        h3 {
+            padding: 10px;
+            margin-bottom: 30px;
+            border-left: 5px dotted rgb(111, 115, 164);
+            color: rgb(38, 80, 125);
+        }
+
+        header {
+            height: 150px;
+        }
+
+        #nav {
+            height: 150px;
+        }
+
+        .gotop {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid black;
+            text-align: center;
+            line-height: 3em;
+            position: fixed;
+            right: 100px;
+            bottom: 10px;
+        }
+
+        .menu a {
+            color: rgb(26, 37, 79);
+            text-decoration: none;
+            display: block;
+            width: 130px;
+            padding: 10px;
+            padding-left: 0;
+            border-radius: 20px;
+            font-size: 120%;
+        }
+
+        .menu a:hover {
+            background-color: rgba(54, 82, 142, 0.875);
+            color: #ffffff;
+        }
+
+        .menu li {
+            list-style-type: none;
+            display: inline-block;
+            width: 130px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 20px;
+            background-color: rgba(124, 175, 236, 0.875);
+        }
+
+        #Portfolio {
+            list-style: none;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>歡迎來到我的個人網站</h1>
+        <section id="header">
+            <ul class="menu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="basic-info.html">關於我</a></li>
+                <li><a href="Educational.html">學歷</a></li>
+                <li><a href="Certificate.html">證照</a></li>
+                <li><a href="Portfolio.html">作品集</a></li>
+            </ul>
+        </section>
+        <section id="nav">
+            <ul id="Portfolio">
+                <h2>作品集</h2>
+                <li>
+                    <h3>第一章作業</h3>
+                    <a href="20240321/index.html" target="_blank">Html基礎</a>
+                </li>
+                <li>
+                    <h3>第二章作業-Css基本功</h3>
+                    <a href="20240328/index.html" target="_blank">設定樣方法</a>
+                </li>
+                <li><a href="20240325/index.html" target="_blank">KOMA-NATSU Web1</a></li>
+                <li><a href="20240401/index.html" target="_blank">KOMA-NATSU Web2</a></li>
+                <li><a href="20240408/index.html" target="_blank">KOMA-NATSU Web3</a></li>
+                <li><a href="20240411/index.html" target="_blank">KOMA-NATSU Web4</a></li>
+                <li>
+                    <h3>期中綜合練習</h3>
+                <li><a href="20240415/index.html" target="_blank">個人履歷</a></li>
+                    <a href="20240418/index.html" target="_blank">個人履歷2</a></li>
+                <li>
+                    <h3>向量圖示及雲端字型</h3>
+                <li><a href="20240429/favicon.html" target="_blank">網頁標誌</a></li>
+                <li><a href="20240429/fontawesome.html" target="_blank">向量圖示</a></li>
+                <li><a href="20240429/google-fonts.html" target="_blank">雲端字型</a></li>
+                <li><a href="20240429/google-icons.html" target="_blank">雲端圖示</a></li>
+                <li>
+                    <h3>網頁排版</h3>
+                <li><a href="20240502/float.html" target="_blank">Float文繞圖練習</a></li>
+                <li><a href="20240502/flexbox.html" target="_blank">Flexbox框架練習</a></li>
+                <li><a href="20240502/display.html" target="_blank">display練習</a></li>
+                <li><a href="20240506/static.html" target="_blank">靜態網頁</a></li>
+                <li><a href="20240506/fixed.html" target="_blank">固定定位</a></li>
+                <li><a href="20240506/absolute.html" target="_blank">絕對定位</a></li>
+                <li><a href="20240509/resume.html" target="_blank">個人網頁</a></li>
+                <li><a href="20240513/112111228-鄭千瑩-20240513.docx">Flexbox排版測驗</a></li>
+                <li><a href="20240516/dessert.html" target="_blank">響應式產品頁面設計</a></li>
+                <li><a href="20240520/layout01.html" target="_blank">用Div排版</a></li>
+                <li><a href="20240523/layout02.html" target="_blank">用Html Tag設計版面</a></li>
+            </ul>
+        </section>
+        <a href="#container">
+            <div class="gotop">
+                <i class="fa-solid fa-up-long fa-bounce fa-2xl arrow "></i>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>
